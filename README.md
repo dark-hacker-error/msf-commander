@@ -1,267 +1,271 @@
-# ⚔️ MSF Commander v4.0 - Metasploit Framework Deep Core Commander
+# MSF Commander v4.0
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-4.0-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Platform-Linux-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Metasploit-Framework-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge"/>
+  <a href="https://github.com/dark-hacker-error/msf-commander">
+    <img src="https://img.shields.io/badge/Version-4.0-brightgreen?style=for-the-badge" alt="Version"/>
+    <img src="https://img.shields.io/badge/Platform-Linux-blue?style=for-the-badge" alt="Platform"/>
+    <img src="https://img.shields.io/badge/Metasploit-Framework-red?style=for-the-badge" alt="Metasploit"/>
+    <img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge" alt="Python"/>
+    <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge" alt="License"/>
+    <img src="https://img.shields.io/badge/Author-Roshan_Hacker-purple?style=for-the-badge" alt="Author"/>
+  </a>
 </p>
 
 <p align="center">
-  🛡️ <b>Complete Offensive Security Arsenal</b> 🛡️<br>
-  <i>Auto-install all dependencies • Mobile Friendly UI • Auto-detect Metasploit</i>
+  <b>Complete Offensive Security Arsenal for Ethical Hackers</b><br>
+  Auto-install dependencies | Mobile-friendly interface | 24+ payload types | Automatic listener setup
 </p>
 
 ---
 
-## 🔥 What is MSF Commander?
+## Overview
 
-MSF Commander is a **powerful Python-based wrapper** for the Metasploit Framework that provides a **menu-driven, mobile-friendly interface** for ethical hacking and penetration testing. It auto-installs all dependencies, detects tools automatically, and moves payloads to your device storage.
+MSF Commander is a Python-based wrapper for the Metasploit Framework that provides a comprehensive, menu-driven interface for penetration testing and security assessments. It features automatic dependency installation, tool detection, mobile-optimized UI, and seamless payload generation with automatic listener configuration.
 
-### ⚡ Key Features
+### Key Capabilities
 
 | Feature | Description |
 |---------|-------------|
-| 🔍 **Auto Tool Detection** | Automatically finds all installed hacking tools |
-| 📦 **Auto Install** | Installs missing dependencies (MSF, nmap, sqlmap, etc.) |
-| 📱 **Mobile Friendly** | Compact UI optimized for Termux/Android |
-| 💣 **Payload Generator** | 24+ payload types with auto handler setup |
-| 📡 **Auto Listener** | Starts MSF handler automatically after payload generation |
-| 📁 **Auto Move to SD Card** | Generated payloads auto-copy to `/sdcard/` |
-| 🎯 **13 Attack Modules** | Network, Web, Credentials, Post-Exploit, and more |
-| 🔐 **Evasion & Encoding** | Multiple encoders to bypass AV |
-| 🔗 **Pivoting & Tunneling** | Autoroute, Portfwd, SOCKS proxy |
+| Automatic Tool Detection | Identifies all installed security tools at startup |
+| Dependency Auto-Installation | Installs Metasploit, nmap, sqlmap, hydra, and other required tools |
+| Mobile-Optimized Interface | Compact design optimized for Termux and Android environments |
+| Payload Generator | 24+ payload types with automatic handler configuration |
+| Automatic Listener Setup | Starts MSF handler immediately after payload generation |
+| SD Card Integration | Generated payloads automatically copied to device storage |
+| 13 Attack Modules | Network, web, credentials, post-exploitation, and more |
+| Encoding and Evasion | Multiple encoders for antivirus bypass |
+| Pivoting and Tunneling | Autoroute, port forwarding, SOCKS proxy support |
 
 ---
 
-## 📸 Screenshots
-
-```
-   ╔═══════════════════════════════════╗
-   ║   ███╗   ███╗██╗   ██╗██████╗    ║
-   ║   ████╗ ████║╚██╗ ██╔╝██╔══██╗   ║
-   ║   ██╔████╔██║ ╚████╔╝ ██████╔╝   ║
-   ║   ██║╚██╔╝██║  ╚██╔╝  ██╔══██╗   ║
-   ║   ██║ ╚═╝ ██║   ██║   ██████╔╝   ║
-   ║   ╚═╝     ╚═╝   ╚═╝   ╚═════╝   ║
-   ╠═══════════════════════════════════╣
-   ║  ⚔️  MSF COMMANDER v4.0  ⚔️      ║
-   ║  Mobile Friendly Edition         ║
-   ╚═══════════════════════════════════╝
-```
-
----
-
-## 🚀 Quick Setup (Kali Linux / Parrot OS)
+## Installation
 
 ### Prerequisites
-- Python 3.x
-- Root access (for Metasploit)
-- Internet connection
 
-### Installation
+- Python 3.x
+- Root access (required for Metasploit Framework)
+- Internet connection (for initial setup)
+
+### Quick Start
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/msf-commander.git
+git clone https://github.com/dark-hacker-error/msf-commander.git
 
-# Navigate to folder
+# Navigate to the project directory
 cd msf-commander
 
-# Run the tool (auto-installs everything!)
+# Run the tool (automatically installs all dependencies)
 python3 main.py
 ```
 
-### Or Copy to /sdcard (Android/Termux)
+### Alternative Installation (Android/Termux)
 
 ```bash
-# Copy to phone storage
-cp -r metasploit_tool /storage/emulated/0/Hacking\ tools\ list/
+# Copy to device storage
+cp -r msf-commander /storage/emulated/0/Hacking\ tools\ list/
 
-# Run from there
-python3 "/storage/emulated/0/Hacking tools list/metasploit_tool/main.py"
+# Run from the new location
+python3 "/storage/emulated/0/Hacking tools list/msf-commander/main.py"
 ```
 
 ---
 
-## 📋 Complete Menu Options
+## Usage
 
-| # | Module | Description |
-|---|--------|-------------|
-| 1 | ⚙️ Setup & Install | Auto-install all dependencies |
-| 2 | 🖥️ MSF Console | Launch Metasploit console |
-| 3 | 💣 Payload Generator | Generate 24+ payload types + auto listener |
-| 4 | 📡 Start Listener Only | Quick multi/handler launcher |
-| 5 | 📋 List Payloads/Encoders | View all msfvenom options |
-| 6 | 🌐 Network Exploits | EternalBlue, MS17-010, SMB exploits |
-| 7 | 📁 Client-Side Exploits | PDF, Office, Java, Flash exploits |
-| 8 | 🔓 Local Exploits | Privilege escalation modules |
-| 9 | 🔍 Auxiliary Modules | 44 scanners, fuzzers, DoS tools |
-| 10 | 🌐 Web Attacks | SQLMap, XSS, Dir Bruteforce |
-| 11 | 🔐 Credential Attacks | Brute force, Pass-the-Hash, John |
-| 12 | 🛡️ Post-Exploitation | 50 post-exploit modules |
-| 13 | 🎭 Evasion & Encoding | Bypass AV with encoders |
-| 14 | 🔗 Pivoting & Tunneling | Autoroute, Portfwd, SOCKS |
-| 15 | 📱 Mobile Exploits | Android/iOS meterpreter |
-| 16 | 🗄️ Database Attacks | MySQL, PostgreSQL, MSSQL |
-| 17 | 📡 Social Engineering | SET framework integration |
-| 18 | 🎮 Meterpreter Commands | 70+ meterpreter commands |
-| 19 | 📊 Reporting & Export | Nmap integration, DB queries |
-| 20 | 🔧 Resource Script Builder | Create .rc scripts |
-| 21 | 🔍 Tool Detector | Check all installed tools |
+### Main Menu
 
----
+When you launch MSF Commander, you will see the following options:
 
-## 💣 Payload Generator - Supported Types
+```
+[1]  Setup and Install          - Auto-install all dependencies
+[2]  MSF Console               - Launch Metasploit console
+[3]  Payload Generator         - Generate payloads with automatic listener
+[4]  Start Listener Only       - Quick multi/handler launcher
+[5]  List Payloads/Encoders    - View all msfvenom options
+[6]  Network Exploits          - EternalBlue, MS17-010, SMB exploits
+[7]  Client-Side Exploits      - PDF, Office, Java, Flash exploits
+[8]  Local Exploits            - Privilege escalation modules
+[9]  Auxiliary Modules         - 44 scanners, fuzzers, DoS tools
+[10] Web Attacks               - SQLMap, XSS, directory bruteforce
+[11] Credential Attacks        - Brute force, pass-the-hash, John
+[12] Post-Exploitation         - 50 post-exploit modules
+[13] Evasion and Encoding      - Bypass antivirus with encoders
+[14] Pivoting and Tunneling    - Autoroute, portfwd, SOCKS
+[15] Mobile Exploits           - Android/iOS meterpreter
+[16] Database Attacks          - MySQL, PostgreSQL, MSSQL
+[17] Social Engineering        - SET framework integration
+[18] Meterpreter Commands      - 70+ meterpreter commands
+[19] Reporting and Export      - Nmap integration, database queries
+[20] Resource Script Builder   - Create .rc scripts
+[21] Tool Detector             - Check all installed tools
+```
 
-### Windows
-- [1] Windows Meterpreter (EXE)
-- [2] Windows Meterpreter (DLL)
-- [3] Windows Meterpreter (MSI)
-- [4] Windows Meterpreter (HTA)
-- [5] Windows Meterpreter (PowerShell)
-- [6] Windows Meterpreter (VBA/Macro)
-- [7] Windows Meterpreter (MSBuild XML)
-- [8] Windows Meterpreter (CSharp EXE)
-- [9] Windows Shell (Reverse TCP)
-- [10] Windows Meterpreter (HTTPS Reverse)
-- [11] Windows Meterpreter (TCP Bind)
+### Payload Generator
 
-### Linux
-- [12] Linux Meterpreter (ELF)
-- [13] Linux Meterpreter (Python)
-- [14] Linux Shell Reverse TCP
-- [15] Linux Meterpreter (HTTPS)
+The payload generator supports 24+ payload types across multiple platforms:
 
-### Mobile
-- [16] Android Meterpreter (APK)
+**Windows Payloads:**
+- Meterpreter (EXE, DLL, MSI, HTA, PowerShell, VBA/Macro, MSBuild XML, CSharp)
+- Shell (Reverse TCP)
+- HTTPS Reverse
+- TCP Bind
 
-### Cross-Platform
-- [17] Mac OS X Meterpreter (Macho)
-- [18] PHP Meterpreter
-- [19] Python Meterpreter
-- [20] Ruby Meterpreter
-- [21] Perl Meterpreter
-- [22] Node.js Meterpreter
-- [23] Java Meterpreter (JAR)
-- [24] WAR/ASPX/JSP
+**Linux Payloads:**
+- Meterpreter (ELF, Python, HTTPS)
+- Shell Reverse TCP
 
----
+**Mobile Payloads:**
+- Android Meterpreter (APK)
 
-## 📡 Auto-Handler Feature
+**Cross-Platform Payloads:**
+- Mac OS X Meterpreter (Macho)
+- PHP, Python, Ruby, Perl, Node.js Meterpreter
+- Java Meterpreter (JAR)
+- WAR/ASPX/JSP
 
-When you generate a payload, MSF Commander **automatically**:
+### Automatic Handler Setup
 
-1. ✅ Generates the payload with msfvenom
-2. ✅ Creates a handler .rc script
-3. ✅ Copies payload to `/sdcard/`
-4. ✅ Asks to start the listener
-5. ✅ Opens msfconsole with handler ready
+When you generate a payload, MSF Commander automatically:
+
+1. Generates the payload using msfvenom
+2. Creates a handler resource script (.rc)
+3. Copies the payload to /sdcard/
+4. Prompts to start the listener
+5. Opens msfconsole with the handler configured
 
 ```
 Payload: android/meterpreter/reverse_tcp
 LHOST: 192.168.1.100
 LPORT: 4444
 
-✅ Payload generated: /root/instgram.apk
-✅ Handler: /tmp/handler_instgram.rc
-✅ Moved to /sdcard/instgram.apk
+Payload generated: /root/instgram.apk
+Handler created: /tmp/handler_instgram.rc
+Copied to: /sdcard/instgram.apk
 
-⚠️  LISTENER CHALANA MAT BHOOLNA!
-Option A: Auto-start (ye tool karega)
-Option B: Manual - msfconsole -r /tmp/handler_instgram.rc
+Start listener now? (y/n)
 ```
 
 ---
 
-## 🛠️ Auto-Installed Tools
+## Auto-Installed Tools
 
-MSF Commander automatically detects and installs:
+MSF Commander automatically detects and installs the following:
 
 ### Python Packages
-- `colorama` - Terminal colors
-- `requests` - HTTP library
-- `dnspython` - DNS toolkit
+- colorama
+- requests
+- dnspython
 
 ### System Tools
-- `nmap` - Network scanner
-- `sqlmap` - SQL injection
-- `hydra` - Brute force
-- `curl` / `wget` - HTTP clients
-- `git` - Version control
-- `ruby` - Metasploit dependency
+- nmap
+- sqlmap
+- hydra
+- curl
+- wget
+- git
+- ruby
 
 ### Metasploit Framework
-Auto-detects from:
-- `~/metasploit-framework/msfconsole`
-- `/opt/metasploit-framework/bin/msfconsole`
-- `/usr/bin/msfconsole`
 
-Auto-installs via:
-1. `apt-get install metasploit-framework`
+Auto-detected from:
+- ~/metasploit-framework/msfconsole
+- /opt/metasploit-framework/bin/msfconsole
+- /usr/bin/msfconsole
+
+Auto-installed via:
+1. apt-get install metasploit-framework
 2. Rapid7 installer script
-3. Git clone + bundle install
+3. Git clone with bundle install
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-metasploit_tool/
-├── main.py              # Master entry point + menu
-├── setup.py             # Setup & installation menu
-├── exploits.py          # Network/Client/Local/Mobile/DB exploits
-├── auxiliary.py          # Scanners, fuzzers, DoS modules
-├── web_hacking.py       # Web attacks, SQLMap, Dir brute
-├── cred_attacks.py      # Brute force, Pass-the-Hash, John
+msf-commander/
+├── main.py              # Main entry point and menu system
+├── setup.py             # Setup and installation menu
+├── exploits.py          # Network, client, local, mobile, database exploits
+├── auxiliary.py         # Scanners, fuzzers, denial-of-service modules
+├── web_hacking.py       # Web attacks, SQLMap, directory bruteforce
+├── cred_attacks.py      # Brute force, pass-the-hash, John the Ripper
 ├── post_exploit.py      # 50 post-exploitation modules
-├── encoders_evasion.py  # AV evasion & encoding
-├── pivoting.py          # Autoroute, Portfwd, SOCKS
+├── encoders_evasion.py  # Antivirus evasion and encoding
+├── pivoting.py          # Autoroute, portfwd, SOCKS proxy
 ├── meterpreter_cmds.py  # 70+ meterpreter commands
-├── reporting.py         # Nmap, DB queries, export
-├── resource_builder.py  # .rc script builder
-└── __init__.py          # Package init
+├── reporting.py         # Nmap integration, database queries, export
+├── resource_builder.py  # Resource script builder
+├── __init__.py          # Package initialization
+└── README.md            # This file
 ```
 
 ---
 
-## ⚠️ Disclaimer
+## Technical Details
 
+### Tool Detection
+
+MSF Commander uses a multi-path detection system for Metasploit:
+
+```python
+MSF_PATHS = [
+    ~/metasploit-framework/msfconsole,
+    /opt/metasploit-framework/bin/msfconsole,
+    /usr/bin/msfconsole,
+    /usr/local/bin/msfconsole,
+]
 ```
-This tool is for educational and authorized security testing purposes only.
-Unauthorized access to computer systems is illegal and unethical.
-Always obtain proper authorization before testing.
-The author is not responsible for any misuse of this tool.
+
+### Ruby Warning Suppression
+
+The tool automatically suppresses Ruby gem warnings that can interfere with msfvenom output:
+
+```python
+cmd = f'RUBYOPT="-W0" {cmd}'
+```
+
+### SD Card Integration
+
+Payloads are automatically copied to available storage:
+
+```python
+for sd in ["/sdcard", "/storage/emulated/0"]:
+    if os.path.exists(sd):
+        shutil.copy2(filepath, os.path.join(sd, filename))
 ```
 
 ---
 
-## 🤝 Contributing
+## Security Notice
 
-Contributions are welcome! Feel free to:
-- 🐛 Report bugs
-- 💡 Suggest new features
-- 🔧 Submit pull requests
-- ⭐ Star this repo if you find it useful!
+This tool is designed for authorized security testing and educational purposes only. Unauthorized access to computer systems is illegal and unethical. Always obtain proper authorization before conducting security assessments.
 
 ---
 
-## 📄 License
+## Contributing
 
-MIT License - Feel free to use and modify.
-
----
-
-## 🔗 Links
-
-- [Metasploit Framework](https://www.metasploit.com/)
-- [Kali Linux](https://www.kali.org/)
-- [Metasploit Documentation](https://docs.metasploit.com/)
+Contributions are welcome. Please feel free to submit pull requests, report issues, or suggest new features.
 
 ---
 
-<p align="center">
-  <b>⚔️ Made with ❤️ for Ethical Hackers ⚔️</b><br>
-  <i>Stay Legal. Stay Ethical. Keep Hacking!</i>
-</p>
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## Author
+
+**Roshan Hacker**
+
+- GitHub: [dark-hacker-error](https://github.com/dark-hacker-error)
+- Repository: [msf-commander](https://github.com/dark-hacker-error/msf-commander)
+
+---
+
+## Acknowledgments
+
+- Metasploit Framework by Rapid7
+- Kali Linux Team
+- Open source security community
