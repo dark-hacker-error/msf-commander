@@ -2,7 +2,7 @@
 
 # ⚔️ MSF Commander v4.0
 
-### Complete Offensive Security Arsenal for Mobile & Desktop
+### Complete Offensive Security Arsenal for Penetration Testing
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Metasploit](https://img.shields.io/badge/Metasploit-F14E32?style=for-the-badge&logo=metasploit&logoColor=white)](https://metasploit.com)
@@ -11,6 +11,8 @@
 [![Payloads](https://img.shields.io/badge/Payloads-24%2B-red?style=for-the-badge)]()
 [![Stars](https://img.shields.io/github/stars/dark-hacker-error/msf-commander?style=for-the-badge)](https://github.com/dark-hacker-error/msf-commander/stargazers)
 [![Forks](https://img.shields.io/github/forks/dark-hacker-error/msf-commander?style=for-the-badge)](https://github.com/dark-hacker-error/msf-commander/network/members)
+[![Issues](https://img.shields.io/github/issues/dark-hacker-error/msf-commander?style=for-the-badge)](https://github.com/dark-hacker-error/msf-commander/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/dark-hacker-error/msf-commander?style=for-the-badge)](https://github.com/dark-hacker-error/msf-commander/pulls)
 
 **⚡ Auto-Install | 📱 Mobile Friendly | 🎯 24+ Payloads | 🔧 Zero Config**
 
@@ -224,6 +226,8 @@ Contributions are welcome! Here's how you can help:
 4. **Push** to the branch (`git push origin feature/amazing`)
 5. **Open** a Pull Request
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
 ### 🐛 Bug Reports
 Found a bug? Please [open an issue](https://github.com/dark-hacker-error/msf-commander/issues) with:
 - Bug description
@@ -236,6 +240,12 @@ Found a bug? Please [open an issue](https://github.com/dark-hacker-error/msf-com
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🔒 Security
+
+For reporting security vulnerabilities, please see [SECURITY.md](SECURITY.md).
 
 ---
 
